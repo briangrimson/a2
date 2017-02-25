@@ -4,7 +4,7 @@
 		"class":"color",
 		"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
 		"year" : 2016,
-    "dimensions":"36&quotx48&quot",
+    "dimensions":"36 in x 48 in",
 		"material" : "Acrylic on canvas",
 		"url" : "images/color_36x48_01.jpg"
 	},
@@ -16,7 +16,7 @@
 			"class":"color",
   		"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
   		"year" : 2017,
-      "dimensions":"36&quotx48&quot",
+      "dimensions":"36 in x 48 in",
   		"material" : "Acrylic on canvas",
   		"url" : "images/color_36x48_02.jpg"
   	},
@@ -26,7 +26,7 @@
 			"class":"color",
   		"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
   		"year" : 2017,
-      "dimensions":"36&quotx48&quot",
+      "dimensions":"36 in x 48 in",
   		"material" : "Acrylic on canvas",
   		"url" : "images/color_36x48_03.jpg"
   	},
@@ -35,7 +35,7 @@
 			"class":"color",
 			"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
 			"year" : 2016,
-			"dimensions":"36&quotx48&quot",
+			"dimensions":"36 in x 48 in",
 			"material" : "Acrylic on canvas",
 			"url" : "images/color_36x48_04.jpg"
 		},
@@ -44,7 +44,7 @@
 			"class":"bw",
 			"tags" : ["forest","marker","impressionism","drawing","landscape"],
 			"year" : 2016,
-			"dimensions":"72&quotx48&quot",
+			"dimensions":"72 in x 48 in",
 			"material" : "Marker on canvas",
 			"url" : "images/bw_72x48_01.jpg"
 		},
@@ -53,7 +53,7 @@
 			"class":"bw",
 			"tags" : ["forest","marker","impressionism","drawing","landscape"],
 			"year" : 2017,
-			"dimensions":"72&quotx48&quot",
+			"dimensions":"72 in x 48 in",
 			"material" : "Marker on canvas",
 			"url" : "images/bw_72x48_02.jpg"
 		},
@@ -62,7 +62,7 @@
 			"class":"bw",
 			"tags" : ["forest","marker","impressionism","drawing","landscape"],
 			"year" : 2016,
-			"dimensions":"72&quotx48&quot",
+			"dimensions":"72 in x 48 in",
 			"material" : "Marker on canvas",
 			"url" : "images/bw_72x48_03.jpg"
 		},
@@ -71,7 +71,7 @@
 			"class":"bw",
 			"tags" : ["forest","marker","impressionism","drawing","landscape"],
 			"year" : 2017,
-			"dimensions":"48&quotx36&quot",
+			"dimensions":"48 in x 36 in",
 			"material" : "Marker on canvas",
 			"url" : "images/bw_48x36_01.jpg"
 		},
@@ -80,7 +80,7 @@
 			"class":"bw",
 			"tags" : ["forest","marker","impressionism","drawing","landscape"],
 			"year" : 2017,
-			"dimensions":"48&quotx36&quot",
+			"dimensions":"48 in x 36 in",
 			"material" : "Marker on canvas",
 			"url" : "images/bw_48x36_02.jpg"
 		},
@@ -89,7 +89,7 @@
 			"class":"photo",
 			"tags" : ["forest","photo","impressionism","landscape"],
 			"year" : 2017,
-			"dimensions":"36&quotx48&quot",
+			"dimensions":"36 in x 48 in",
 			"material" : "Inkjet and Acrylic on Panel",
 			"url" : "images/photo_36x48_01.jpg"
 		},
@@ -98,7 +98,7 @@
 			"class":"photo",
 			"tags" : ["forest","photo","impressionism","landscape"],
 			"year" : 2016,
-			"dimensions":"24&quotx36&quot",
+			"dimensions":"24 in x 36 in",
 			"material" : "Inkjet and Acrylic on Panel",
 			"url" : "images/photo_24x36_01.jpg"
 		},
@@ -107,7 +107,7 @@
 			"class":"color",
 			"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
 			"year" : 2016,
-	    "dimensions":"36&quotx48&quot",
+	    "dimensions":"36 in x 48 in",
 			"material" : "Acrylic on canvas",
 			"url" : "images/color_36x48_05.jpg"
 		},
@@ -116,7 +116,7 @@
 			"class":"color",
 			"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
 			"year" : 2016,
-	    "dimensions":"36&quotx48&quot",
+	    "dimensions":"36 in x 48 in",
 			"material" : "Acrylic on canvas",
 			"url" : "images/color_36x48_06.jpg"
 		},
@@ -125,7 +125,7 @@
 			"class":"color",
 			"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
 			"year" : 2016,
-	    "dimensions":"36&quotx48&quot",
+	    "dimensions":"36 in x 48 in",
 			"material" : "Acrylic on canvas",
 			"url" : "images/color_36x48_07.jpg"
 		},
@@ -134,7 +134,7 @@
 			"class":"color",
 			"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
 			"year" : 2016,
-	    "dimensions":"36&quotx48&quot",
+	    "dimensions":"36 in x 48 in",
 			"material" : "Acrylic on canvas",
 			"url" : "images/color_36x48_08.jpg"
 		},
@@ -144,7 +144,7 @@
 			"class":"color",
 			"tags" : ["reflection","painting","impressionism","color", "water","landscape"],
 			"year" : 2016,
-	    "dimensions":"36&quotx48&quot",
+	    "dimensions":"36 in x 48 in",
 			"material" : "Acrylic on canvas",
 			"url" : "images/color_36x48_09.jpg"
 		}

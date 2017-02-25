@@ -23,7 +23,7 @@ $keywordFilter = $form->get('keyword', '');
       $dimensions = $artwork['dimensions'];
       $material = $artwork['material'];
       $url = $artwork['url'];
-      $artThumb = '<div class="artwork '.$class.' "" id='.$id.' > <a href='.$url.'><img class=thumb src='.$url.'> </a>
+      $artThumb = '<div class="artwork '.$class.'" id='.$id.' > <a href='.$url.'><img alt='.$id.' class=thumb src='.$url.'> </a>
             <div class=caption> '.$dimensions.'<br>'.$material.'<br>'.$year.'</div>
 
             </div>';
