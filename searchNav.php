@@ -14,13 +14,12 @@
     <option value=2016>2016 </option>
   </select><br>
   <input type=submit class='btn btn-primary btn-lg' value='Filter'>
-  </form>
+</form>
 
   <form method=get action='index.php'>
-<!--filter by keyword  -->
   <h3>keyword</h3>
   <input type=text name=keyword><br>
-  <label><i>e.g. drawing, forest</i><br>
-  <input type=submit class='btn btn-primary btn-lg' value='Filter'><br>
+  <label><i>e.g. drawing, forest</i></label><br>
+  <input type=submit class='btn btn-primary btn-lg' value='Filter'>
 </form>
 </div>
