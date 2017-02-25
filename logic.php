@@ -13,7 +13,7 @@ $bwFilter = $form->get('bw','off');
 $colorFilter = $form->get('color','off');
 $photoFilter = $form->get('photo','off');
 $yearFilter = $form->get('year', '');
-$keywordFilter = $form->get('keyword', '');
+$keywordFilter = sanitize($form->get('keyword', ''));
 
   foreach($library as $artwork){
       $id = $artwork['id'];
