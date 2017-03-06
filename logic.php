@@ -14,7 +14,7 @@ class ArtLibrary {
   public $yearFilter;
   public $keywordFilter;
 
-  public function displayArtLibrary($library){
+  public function displayArtLibrary(){
     $form = new Form($_GET);
 
     $bwFilter = $form->get('bw', '');
@@ -22,9 +22,9 @@ class ArtLibrary {
     $photoFilter = $form->get('photo', '');
     $yearFilter = $form->get('year', '');
     $keywordFilter =$form->get('keyword', '');
-    $this->$jsonArt = file_get_contents($library);
+    $this->$jsonArt = file_get_contents('artwork.json');
     $this->$artLibrary = json_decode($this->$jsonArt, true);
-    
+
     foreach($this->$artLibrary as $artwork){
       $id = $artwork['id'];
       $class = $artwork['class'];
