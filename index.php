@@ -9,7 +9,7 @@
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
   <meta name="description" content="The artwork of Brian Grimson">
 
-  
+
   <link rel=stylesheet href=css/main.css>
 </head>
 <body>
@@ -49,8 +49,10 @@ leifgrimson@gmail.com
 
 
 <div class=gallery>
-<?php $newArtLibrary  = new ArtLibrary();
-      $newArtLibrary->displayArtLibrary('artwork.json');
+
+<?php
+displayArtLibrary();
+
 ?>
 
 
