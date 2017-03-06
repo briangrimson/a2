@@ -12,9 +12,22 @@ function displayArtLibrary(){
   $year_filter = isset($_GET['year']) ? $_GET['year'] : '';
 
 
+
   foreach($library as $artwork){
-    if($bw_filter == 'on' && $artwork['class'] == 'bw'){
-      echo '<div>'.$artwork['url'].' </div>';
+    $artThumb = '<div class="artwork '.$artwork['class'].'" id='.$artwork['id'].' > <a href='.$artwork['url'].'><img alt='.$artwork['id'].' class=thumb src='.$artwork['url'].'> </a>
+               <div class=caption> '.$artwork['dimensions'].'<br>'.$artwork['material'].'<br>'.$artwork['year'].'</div> </div>';
+
+    if ($bw_filter == '' && $color_filter == '' && $photo_filter ==''){
+      echo $artThumb;
+    }
+    elseif($bw_filter == 'on' && $artwork['class'] == 'bw' && ($year_filter==$artwork['year'] || $year_filter== '' )) {
+      echo $artThumb;
+    }
+    elseif($color_filter == 'on' && $artwork['class'] == 'color' && ($year_filter==$artwork['year'] || $year_filter== '' )){
+      echo $artThumb;
+    }
+    elseif($photo_filter == 'on' && $artwork['class'] == 'photo' && ($year_filter==$artwork['year'] || $year_filter== '' )){
+      echo $artThumb;
     }
 
   }
