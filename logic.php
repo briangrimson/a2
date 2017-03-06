@@ -13,9 +13,10 @@ function displayArtLibrary(){
 
 
   foreach($library as $artwork){
-    if($color_filter == '' && $bw_filter == '' && $photo_filter == ''){
-      echo '<div>'.$artwork['url'].'</div>';
-    }
+    echo 'hello';
+    // if($color_filter == '' && $bw_filter == '' && $photo_filter == ''){
+    //   echo '<div>'.$artwork['url'].'</div>';
+    // }
   }
 
 
