@@ -1,7 +1,11 @@
 body{
-  font-size:2vmin;
+  font-size:1.5vmax;
 }
 
+h1{
+  margin:0;
+  padding:0;
+}
 
 .caption{
   margin-top:1vh;
@@ -54,16 +58,23 @@ body{
 }
 
 input[type=checkbox]{
+  float:right;
+margin:1.5vh 1vw;
 
-float:right;
+
+
 
 
 }
 
 
-input[type=checkbox] + label{
 
-  width:10vw;
+
+input[type=checkbox] + label{
+  font-size:2.5vh;
+  float:right;
+  margin:1.5vh 0;
+  width:15vw;
 
   color:grey;
 
@@ -71,6 +82,7 @@ input[type=checkbox] + label{
 }
 
 input[type=checkbox]:checked + label{
+
   color:black;
 
 }
@@ -82,7 +94,7 @@ input[type=text]{
 }
 
 input[type=submit]{
-  margin:2vh 0 2vh 0;
+
 
 
 
@@ -101,4 +113,7 @@ i{
 
 
 
+}
+
+div.checkbox{
 }
