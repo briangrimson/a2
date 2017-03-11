@@ -17,6 +17,9 @@ function newWindow(url){
   window.open(url, "Brian Grimson", height=800, width=1000);
 }
 
+function openContact(){
+  window.open('contact.php', 'Contact', height=200, width=300)
+}
 </script>
 
 
@@ -51,7 +54,7 @@ function newWindow(url){
   <input type=submit class='btn btn-secondary btn-lg' value='Filter'>
 </form>
 <div class='info'>
-<h3 onclick=newWindow('contact.php')>Contact</h3>
+<h3 onclick=openContact()>Contact</h3>
 
 </div>
 
