@@ -3,10 +3,14 @@ body{
 }
 
 h1{
+  font-size:6vh;
   margin:0;
   padding:0;
 }
 
+h3{
+  margin:5vh 0;
+}
 .caption{
   margin-top:1vh;
   font-size:1.5vh;
@@ -19,9 +23,6 @@ h1{
   overflow:hidden;
 }
 
-.thumb:hover{
-  box-shadow:
-}
 .artwork{
   margin:1vh 1vw;
   padding-top:2vh;
@@ -31,13 +32,24 @@ h1{
   width:20vmax;
 }
 
+.artwork:hover{
+  cursor: pointer;
+}
 
+.thumb:hover{
+  box-shadow: 0vh 1vh 2vh slategrey;
+}
 
 .searchNav{
+
   font-family: 'Permanent Marker', cursive;
   text-align:right;
   width:20vw;
-  margin:20vh 0;
+  margin: 0;
+  position:fixed;
+  top:10vh;
+  left: 5vw;
+
   display:inline-block;
   float:left;
   clear:left;
@@ -46,40 +58,62 @@ h1{
 .gallery{
   text-align:center;
   margin:5vh 0 0 0;
-  max-width:75vmax;
+  max-width:70vmax;
   height:90vh;
   overflow-y:scroll;
   display:inline-block;
   float:right;
-  position:fixed;
+  position:relative;
+  right:5vw;
+
 
 
 
 }
 
 input[type=checkbox]{
-  float:right;
-margin:1.5vh 1vw;
-
+float:right;
+margin:0;
+padding:0;
+width:20vw;
+height:4vh;
+position:relative;
+left:2vw;
+z-index:100;
+opacity:0;
 
 
 
 
 }
 
+input[type=checkbox]:hover{
+  cursor: pointer;
+
+
+
+
+
+
+}
 
 
 
 input[type=checkbox] + label{
-  font-size:2.5vh;
-  float:right;
-  margin:1.5vh 0;
+  position:relative;
+  bottom:5vh;
+  left:5vw;
+  font-size:3vh;
+  float:left;
   width:15vw;
 
-  color:grey;
 
+  padding:0;
+  color:lightgrey;
 
 }
+
+
 
 input[type=checkbox]:checked + label{
 
@@ -88,14 +122,20 @@ input[type=checkbox]:checked + label{
 }
 
 
+input[type=checkbox]:hover + label{
 
-input[type=text]{
+  text-shadow: 0 0vh 1vh slategrey;
 
 }
 
+
+
+
+
 input[type=submit]{
-
-
+  position:fixed;
+  left:17vw;
+  bottom:25vh;
 
 
 }
@@ -109,11 +149,28 @@ i{
 }
 
 .info{
-
-
+  position:fixed;
+  bottom:10vh;
+  left:17vw;
 
 
 }
 
-div.checkbox{
+.info:hover{
+    text-shadow: 0 0vh 1vh slategrey;
+    cursor: pointer;
+}
+
+div.select{
+
+  position:fixed;
+  bottom:35vh;
+  left:16vw;
+}
+
+
+.contact{
+  width:50vw;
+  height:40vh;
+  margin:30vh 30vw;
 }

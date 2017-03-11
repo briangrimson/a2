@@ -11,7 +11,17 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel=stylesheet href=css/main.css>
+
+<script>
+function newWindow(url){
+  window.open(url, "Brian Grimson", height=800, width=1000);
+}
+
+</script>
+
+
 </head>
+
 <body>
 
 
@@ -23,12 +33,12 @@
 <!-- filter by work -->
 
 <h3> Series </h3>
-   <input type=checkbox name='bw' checked> <label for='bw'>Black and White </label><br>
+   <input type=checkbox name='bw' checked> <label for='bw'>Black &amp; White </label><br>
    <input type=checkbox  name='color'  checked> <label for='color' >Color</label><br>
    <input type=checkbox name='photo'  checked> <label for='photo' > Photo Transfer </label> <br>
 
 <!-- filter by year -->
-
+<div class=select>
 <label for='year'>Year</label>
 
   <select  name=year>
@@ -37,12 +47,12 @@
     <option value=2016>2016 </option>
   </select><br>
 
-
-  <input type=submit class='btn btn-primary btn-md' value='Filter'>
+</div>
+  <input type=submit class='btn btn-secondary btn-lg' value='Filter'>
 </form>
-<div class='info contact'>
-<h3>Contact</h3>
-leifgrimson@gmail.com
+<div class='info'>
+<h3 onclick=newWindow('contact.php')>Contact</h3>
+
 </div>
 
 </div>

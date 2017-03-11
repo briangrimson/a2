@@ -14,7 +14,8 @@ function displayArtLibrary(){
 
 
   foreach($library as $artwork){
-    $artThumb = '<div class="artwork '.$artwork['class'].'" id='.$artwork['id'].' > <a href='.$artwork['url'].'><img alt='.$artwork['id'].' class=thumb src='.$artwork['url'].'> </a>
+
+    $artThumb = '<div onclick=newWindow("'.$artwork['url'].'") class="artwork '.$artwork['class'].'" id='.$artwork['id'].' > <img alt='.$artwork['id'].' class=thumb src='.$artwork['url'].'> 
                <div class=caption> '.$artwork['dimensions'].'<br>'.$artwork['material'].'<br>'.$artwork['year'].'</div> </div>';
 
     if ($bw_filter == '' && $color_filter == '' && $photo_filter ==''){

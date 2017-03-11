@@ -9,6 +9,11 @@ function check_boxes(){
 
 
 </script>
+<script>
+function openNewWindow(url){
+  window.open(url);
+}
+</script>
 
 
 <div class=searchNav>
